@@ -1,0 +1,69 @@
+{
+    "kachuwa": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-kachuwa-kachuwa-202918-authRole",
+            "UnauthRoleArn": "arn:aws:iam::736086997297:role/amplify-kachuwa-kachuwa-202918-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::736086997297:role/amplify-kachuwa-kachuwa-202918-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+            "UnauthRoleName": "amplify-kachuwa-kachuwa-202918-unauthRole",
+            "StackName": "amplify-kachuwa-kachuwa-202918",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:736086997297:stack/amplify-kachuwa-kachuwa-202918/238f9990-ea32-11eb-a6ac-0aad7ca48248",
+            "AmplifyAppId": "d3871cb9k0sr5i",
+            "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-kachuwa-kachuwa-202918-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+        },
+        "categories": {
+            "auth": {
+                "kachuwad2360e74": {}
+            },
+            "function": {
+                "sendMailNew": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/sendMailNew-684f66563245724b586c-build.zip"
+                },
+                "dbtorunzun": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/dbtorunzun-56434837694935315532-build.zip"
+                },
+                "activeApiFunc": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/activeApiFunc-76385345503539665657-build.zip"
+                },
+                "CustomSMSSender": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/CustomSMSSender-764a3265315a787a3169-build.zip"
+                },
+                "CustomSMSSenderNew": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/CustomSMSSenderNew-564c50552b4b54324e67-build.zip"
+                },
+                "confirmedUserCount": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/confirmedUserCount-64374a716e4366353861-build.zip"
+                },
+                "preSignUpTrigger": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/preSignUpTrigger-774146414f4b3051714e-build.zip"
+                },
+                "scrapShipNepal": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/scrapShipNepal-545a76566266432f6e6e-build.zip"
+                },
+                "notPaidOrderCheck": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/notPaidOrderCheck-6254437a757571474644-build.zip"
+                },
+                "priceFormula": {
+                    "deploymentBucketName": "amplify-kachuwa-kachuwa-202918-deployment",
+                    "s3Key": "amplify-builds/priceFormula-6268386e716639383074-build.zip"
+                }
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d3871cb9k0sr5i",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

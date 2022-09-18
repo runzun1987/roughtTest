@@ -1,0 +1,146 @@
+[
+  {
+    "id": 27,
+    "name": "Headphones",
+    "slug": "phone Headphones",
+    "icon": "https://ae04.alicdn.com/kf/Hb16ac8d5fe674b76a5beb3ee241eacdaW.jpg_300x300Q70.jpg_.webp",
+    "parent_id": 0,
+    "position": 0,
+    "created_at": "2022-04-11T09:35:06.000000Z",
+    "updated_at": "2022-04-13T06:25:57.000000Z",
+    "home_status": 1,
+    "priority": 2,
+    "childes": [],
+    "translations": []
+  },
+  {
+    "id": 15,
+    "name": "abc",
+    "image": "2022-04-19-625e5e370a343.png",
+    "status": 1,
+    "created_at": "2022-04-19T07:01:11.000000Z",
+    "updated_at": "2022-04-19T07:01:11.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 14,
+    "name": "Vivatiqo",
+    "image": "2022-04-13-62566a6b87e0f.png",
+    "status": 1,
+    "created_at": "2022-04-11T09:22:59.000000Z",
+    "updated_at": "2022-04-13T06:15:07.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 13,
+    "name": "Axxelus",
+    "image": "2022-04-13-62566a7e9e163.png",
+    "status": 1,
+    "created_at": "2022-04-11T09:22:08.000000Z",
+    "updated_at": "2022-04-13T06:15:26.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 12,
+    "name": "Modentum",
+    "image": "2022-04-13-62566a9764bbf.png",
+    "status": 1,
+    "created_at": "2022-04-11T09:21:33.000000Z",
+    "updated_at": "2022-04-13T06:15:51.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 11,
+    "name": "Framerce",
+    "image": "2022-04-13-62566aaad1d50.png",
+    "status": 1,
+    "created_at": "2022-04-11T09:20:22.000000Z",
+    "updated_at": "2022-04-13T06:16:10.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 10,
+    "name": "Crave",
+    "image": "2022-04-13-62566ac36e4cd.png",
+    "status": 1,
+    "created_at": "2022-04-11T09:18:14.000000Z",
+    "updated_at": "2022-04-13T06:16:35.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 9,
+    "name": "Dynamova",
+    "image": "2022-04-13-62566ad879288.png",
+    "status": 1,
+    "created_at": "2022-04-11T09:17:25.000000Z",
+    "updated_at": "2022-04-13T06:16:56.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 8,
+    "name": "The Wall",
+    "image": "2022-04-16-625a468e11386.png",
+    "status": 1,
+    "created_at": "2022-04-11T09:16:52.000000Z",
+    "updated_at": "2022-04-16T04:31:10.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 7,
+    "name": "TrueMake",
+    "image": "2022-04-16-625a470ab00d1.png",
+    "status": 1,
+    "created_at": "2022-04-10T11:22:10.000000Z",
+    "updated_at": "2022-04-16T04:33:14.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 6,
+    "name": "Centre Point",
+    "image": "2022-04-16-625a472c9f231.png",
+    "status": 1,
+    "created_at": "2022-04-10T11:20:35.000000Z",
+    "updated_at": "2022-04-16T04:33:48.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 5,
+    "name": "Arkohub",
+    "image": "2022-04-16-625a46eca6f04.png",
+    "status": 1,
+    "created_at": "2022-04-10T11:20:04.000000Z",
+    "updated_at": "2022-04-16T04:32:44.000000Z",
+    "brand_products_count": 6,
+    "translations": []
+  },
+  {
+    "id": 4,
+    "name": "Tell us",
+    "image": "2022-04-16-625a46d2ebbe5.png",
+    "status": 1,
+    "created_at": "2022-04-10T11:19:35.000000Z",
+    "updated_at": "2022-04-16T04:32:18.000000Z",
+    "brand_products_count": 0,
+    "translations": []
+  },
+  {
+    "id": 1,
+    "name": "Great Hall",
+    "image": "2022-04-13-62566afd08cb0.png",
+    "status": 1,
+    "created_at": "2022-03-16T15:35:55.000000Z",
+    "updated_at": "2022-04-13T06:17:33.000000Z",
+    "brand_products_count": 14,
+    "translations": []
+  }
+]

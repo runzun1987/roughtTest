@@ -1,0 +1,1404 @@
+{
+  "total_size": 20,
+  "limit": 0,
+  "offset": 0,
+  "products": [
+    {
+      "id": 1,
+      "added_by": "admin",
+      "user_id": 1,
+      "name": "Women's long-sleeve lightweight french terry fleece quarter-zip top",
+      "slug": "test-1-DcD1hE",
+      "category_ids": [{ "id": "11", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-20-625fe69f716aa.png",
+        "2022-04-20-625fe69f728ef.png",
+        "2022-04-20-625fe69f729e1.png"
+      ],
+      "thumbnail": "2022-04-20-625fe69f72cce.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Amethyst", "code": "#9966CC" },
+        { "name": "Aquamarine", "code": "#7FFFD4" }
+      ],
+      "variant_product": 0,
+      "attributes": [1],
+      "choice_options": [
+        { "name": "choice_1", "title": "size", "options": ["s", "          l"] }
+      ],
+      "variation": [
+        {
+          "type": "Amethyst-s",
+          "price": 500,
+          "sku": "t1-Amethyst-s",
+          "qty": 88
+        },
+        {
+          "type": "Amethyst-l",
+          "price": 500,
+          "sku": "t1-Amethyst-l",
+          "qty": 100
+        },
+        {
+          "type": "Aquamarine-s",
+          "price": 500,
+          "sku": "t1-Aquamarine-s",
+          "qty": 100
+        },
+        {
+          "type": "Aquamarine-l",
+          "price": 500,
+          "sku": "t1-Aquamarine-l",
+          "qty": 100
+        }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 388,
+      "details": "<p>60% Cotton, 40% Polyester</p>\r\n\r\n<ul>\r\n\t<li>Imported</li>\r\n\t<li>Zipper closure</li>\r\n\t<li>Machine Wash</li>\r\n\t<li>This quarter-zip up top in incredibly soft and comfortable French terry fleece is a go-to for an easy, casual look</li>\r\n\t<li>Features long-sleeves, patch front kangaroo pocket, high collar, and ribbing at the neck, cuffs and hem</li>\r\n\t<li>Everyday made better: we listen to customer feedback and fine-tune every detail to ensure quality, fit, and comfort</li>\r\n</ul>\r\n\r\n<h2>Product details</h2>\r\n\r\n<ul>\r\n\t<li>Package Dimensions :&nbsp;12.44 x 11.89 x 1.89 inches; 10.58 Ounces</li>\r\n\t<li>Item model number :&nbsp;AE18111988</li>\r\n\t<li>Department :&nbsp;Womens</li>\r\n\t<li>Date First Available :&nbsp;February 6, 2020</li>\r\n\t<li>Manufacturer :&nbsp;Amazon Essentials</li>\r\n\t<li>ASIN :&nbsp;B07W6NPBVV</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-16T15:38:52.000000Z",
+      "updated_at": "2022-04-24T04:47:11.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-20-625fe69f72ec0.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 10,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 1,
+      "rating": [{ "average": "5.0000", "product_id": 1 }],
+      "translations": [],
+      "reviews": [
+        {
+          "id": 16,
+          "product_id": 1,
+          "customer_id": 2,
+          "comment": "hwxjdk. kg",
+          "attachment": "[\"2022-04-23-6263cbf7ede63.png\",\"2022-04-23-6263cbf7eede3.png\",\"2022-04-23-6263cbf7eee8e.png\"]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-23T09:50:47.000000Z",
+          "updated_at": "2022-04-23T09:50:47.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "added_by": "seller",
+      "user_id": 1,
+      "name": "Ladies Winter Long Sleeve Sweater",
+      "slug": "test-3-ibgkHB",
+      "category_ids": [{ "id": "11", "position": 1 }],
+      "brand_id": 1,
+      "unit": "kg",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-23-626363699f156.png",
+        "2022-04-23-62636369a053f.png"
+      ],
+      "thumbnail": "2022-04-23-62636369a0855.png",
+      "featured": 0,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Amethyst", "code": "#9966CC" },
+        { "name": "AntiqueWhite", "code": "#FAEBD7" }
+      ],
+      "variant_product": 0,
+      "attributes": [2],
+      "choice_options": [
+        {
+          "name": "choice_2",
+          "title": "type",
+          "options": ["a", "                  \\b"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "Amethyst-a",
+          "price": 5000,
+          "sku": "t3-Amethyst-a",
+          "qty": 3
+        },
+        {
+          "type": "Amethyst-\\b",
+          "price": 5000,
+          "sku": "t3-Amethyst-\\b",
+          "qty": 10
+        },
+        {
+          "type": "AntiqueWhite-a",
+          "price": 5000,
+          "sku": "t3-AntiqueWhite-a",
+          "qty": 10
+        },
+        {
+          "type": "AntiqueWhite-\\b",
+          "price": 5000,
+          "sku": "t3-AntiqueWhite-\\b",
+          "qty": 10
+        }
+      ],
+      "published": 0,
+      "unit_price": 5000,
+      "purchase_price": 4000,
+      "tax": 0,
+      "tax_type": "percent",
+      "discount": 0,
+      "discount_type": "percent",
+      "current_stock": 33,
+      "details": "<h2>Product details of Ladies Winter Long Sleeve Open Cardian Sweater with Button</h2>\r\n\r\n<ul>\r\n\t<li>Brand&nbsp; : J &amp; Z Sourcing</li>\r\n\t<li>Material : 100% Acrylic</li>\r\n\t<li>Closer : Belt &amp; Button</li>\r\n\t<li>Neck : Open Cardigan</li>\r\n\t<li>Occasion: Winter</li>\r\n\t<li>Wash : Hand Wash</li>\r\n\t<li>Measurement : &nbsp;Length- 36&rsquo;&rsquo; &nbsp;Chest -40&rsquo;&rsquo;</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-16T15:53:43.000000Z",
+      "updated_at": "2022-04-24T04:45:02.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-23-62636369a0abb.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 10,
+      "multiply_qty": 1,
+      "temp_shipping_cost": 10,
+      "is_shipping_cost_updated": 1,
+      "reviews_count": 3,
+      "rating": [{ "average": "5.0000", "product_id": 3 }],
+      "translations": [],
+      "reviews": [
+        {
+          "id": 13,
+          "product_id": 3,
+          "customer_id": 2,
+          "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "attachment": "[]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-21T04:50:13.000000Z",
+          "updated_at": "2022-04-21T04:50:13.000000Z"
+        },
+        {
+          "id": 14,
+          "product_id": 3,
+          "customer_id": 2,
+          "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+          "attachment": "[\"2022-04-21-6260e29ad51a1.png\",\"2022-04-21-6260e29ad6104.png\"]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-21T04:50:34.000000Z",
+          "updated_at": "2022-04-21T04:50:34.000000Z"
+        },
+        {
+          "id": 15,
+          "product_id": 3,
+          "customer_id": 2,
+          "comment": "asdf",
+          "attachment": "[\"2022-04-21-6260ee542ad0f.png\",\"2022-04-21-6260ee5432db4.png\",\"2022-04-21-6260ee5432e3b.png\"]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-21T05:40:36.000000Z",
+          "updated_at": "2022-04-21T05:40:36.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "added_by": "admin",
+      "user_id": 1,
+      "name": "The school of life - emotional baggage tote bag - canvas tote bag (navy)",
+      "slug": "test-1-ujoAgo",
+      "category_ids": [{ "id": "15", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": ["2022-04-13-62566ecb46b07.png"],
+      "thumbnail": "2022-04-13-62566ecb47876.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Aqua", "code": "#00FFFF" },
+        { "name": "Aquamarine", "code": "#7FFFD4" }
+      ],
+      "variant_product": 0,
+      "attributes": [2],
+      "choice_options": [
+        {
+          "name": "choice_2",
+          "title": "type",
+          "options": ["s", "              l"]
+        }
+      ],
+      "variation": [
+        { "type": "Aqua-s", "price": 500, "sku": "t5-Aqua-s", "qty": 3 },
+        { "type": "Aqua-l", "price": 500, "sku": "t5-Aqua-l", "qty": 1 },
+        {
+          "type": "Aquamarine-s",
+          "price": 500,
+          "sku": "t5-Aquamarine-s",
+          "qty": 1
+        },
+        {
+          "type": "Aquamarine-l",
+          "price": 500,
+          "sku": "t5-Aquamarine-l",
+          "qty": 1
+        }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "flat",
+      "current_stock": 6,
+      "details": "<p>Heavy duty canvas tote bag</p>\r\n\r\n<ul>\r\n\t<li>Available in either navy or khaki with white print</li>\r\n\t<li>Stylish tote bag ideal for men or women</li>\r\n\t<li>100% cotton</li>\r\n\t<li>375 x 400mm</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-16T16:36:37.000000Z",
+      "updated_at": "2022-04-24T04:47:10.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-13-62566ecb479df.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 200,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "added_by": "seller",
+      "user_id": 1,
+      "name": "Exclusive & Fashionable Suit For Men",
+      "slug": "test-6-Pg6Hpj",
+      "category_ids": [{ "id": "12", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-23-6263633d39741.png",
+        "2022-04-23-6263633d3aa63.png",
+        "2022-04-23-6263633d3ad74.png"
+      ],
+      "thumbnail": "2022-04-23-6263633d3b0a6.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Amethyst", "code": "#9966CC" },
+        { "name": "AntiqueWhite", "code": "#FAEBD7" }
+      ],
+      "variant_product": 0,
+      "attributes": [1],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["s", "            l"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "Amethyst-s",
+          "price": 500,
+          "sku": "t6-Amethyst-s",
+          "qty": 66
+        },
+        {
+          "type": "Amethyst-l",
+          "price": 500,
+          "sku": "t6-Amethyst-l",
+          "qty": 100
+        },
+        {
+          "type": "AntiqueWhite-s",
+          "price": 500,
+          "sku": "t6-AntiqueWhite-s",
+          "qty": 100
+        },
+        {
+          "type": "AntiqueWhite-l",
+          "price": 500,
+          "sku": "t6-AntiqueWhite-l",
+          "qty": 100
+        }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 366,
+      "details": "<h2>Product details of Exclusive &amp; Fashionable Suit For Men</h2>\r\n\r\n<ul>\r\n\t<li>Type: Blazer</li>\r\n\t<li>Material: Synthetic &amp; Cotton</li>\r\n\t<li>For Men</li>\r\n\t<li>Best quality product</li>\r\n\t<li>Clothing Length:Regular</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-16T17:04:22.000000Z",
+      "updated_at": "2022-04-24T04:45:03.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-23-6263633d3b2fb.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 10,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 1,
+      "rating": [{ "average": "5.0000", "product_id": 5 }],
+      "translations": [],
+      "reviews": [
+        {
+          "id": 4,
+          "product_id": 5,
+          "customer_id": 2,
+          "comment": "asdf",
+          "attachment": "[]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-13T07:08:42.000000Z",
+          "updated_at": "2022-04-13T07:08:42.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "added_by": "seller",
+      "user_id": 1,
+      "name": "Sneakers man new design fabrics shoes with high lace up design and rubber materi",
+      "slug": "test-7-3spYrs",
+      "category_ids": [{ "id": "12", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-16-625a26a3df10d.png",
+        "2022-04-19-625e4238d4121.png",
+        "2022-04-19-625e4238d5569.png",
+        "2022-04-19-625e4238d5678.png",
+        "2022-04-19-625e4238d575f.png",
+        "2022-04-19-625e4238d587c.png",
+        "2022-04-19-625e4238d5979.png",
+        "2022-04-19-625e4238d5a61.png",
+        "2022-04-19-625e4238d5b56.png",
+        "2022-04-19-625e4238d5c96.png"
+      ],
+      "thumbnail": "2022-04-16-625a26a3dfe7b.png",
+      "featured": 0,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Amethyst", "code": "#9966CC" },
+        { "name": "Aqua", "code": "#00FFFF" }
+      ],
+      "variant_product": 0,
+      "attributes": [1],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["s", "                l"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "Amethyst-s",
+          "price": 500,
+          "sku": "t7-Amethyst-s",
+          "qty": 0
+        },
+        {
+          "type": "Amethyst-l",
+          "price": 500,
+          "sku": "t7-Amethyst-l",
+          "qty": 1
+        },
+        { "type": "Aqua-s", "price": 500, "sku": "t7-Aqua-s", "qty": 0 },
+        { "type": "Aqua-l", "price": 500, "sku": "t7-Aqua-l", "qty": 0 }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 0,
+      "tax_type": "percent",
+      "discount": 0,
+      "discount_type": "percent",
+      "current_stock": 1,
+      "details": "<h2>Product details of Classy Sneakers for Men</h2>\r\n\r\n<ul>\r\n\t<li>High quality grip sou</li>\r\n\t<li>Stylish coloue</li>\r\n\t<li>Lace system</li>\r\n\t<li>Comfortable sneakers</li>\r\n\t<li>Best Quality</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-16T17:07:22.000000Z",
+      "updated_at": "2022-04-24T04:44:59.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-16-625a26a3dffc6.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 20,
+      "multiply_qty": 1,
+      "temp_shipping_cost": 100,
+      "is_shipping_cost_updated": 1,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "added_by": "admin",
+      "user_id": 1,
+      "name": "Progress lighting P4009-10 5-light chandelier, polished brass",
+      "slug": "test-10-LQArPe",
+      "category_ids": [{ "id": "27", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": ["2022-04-13-62566e1a3464f.png"],
+      "thumbnail": "2022-04-13-62566e1a35a9c.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Amethyst", "code": "#9966CC" },
+        { "name": "AntiqueWhite", "code": "#FAEBD7" }
+      ],
+      "variant_product": 0,
+      "attributes": [1],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["s", "                    l"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "Amethyst-s",
+          "price": 500,
+          "sku": "t1-Amethyst-s",
+          "qty": 2
+        },
+        {
+          "type": "Amethyst-l",
+          "price": 500,
+          "sku": "t1-Amethyst-l",
+          "qty": 2
+        },
+        {
+          "type": "AntiqueWhite-s",
+          "price": 500,
+          "sku": "t1-AntiqueWhite-s",
+          "qty": 1
+        },
+        {
+          "type": "AntiqueWhite-l",
+          "price": 500,
+          "sku": "t1-AntiqueWhite-l",
+          "qty": 3
+        }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 8,
+      "details": "<h3>Specifications of OLEVS 5563 Quartz wrist watch waterproof watch for Men and Women</h3>\r\n\r\n<ul>\r\n\t<li>Brand - OLEVS</li>\r\n\t<li>SKU - 183922704_BD-1128752672</li>\r\n\t<li>Strap Material - Alloy</li>\r\n\t<li>Model - 5563</li>\r\n\t<li>Dial Size -40mm</li>\r\n\t<li>Watch Type - Analouge</li>\r\n\t<li>Movement - Japanese Quartz</li>\r\n\t<li>Watch Movement Country - China</li>\r\n\t<li>Watch&#39;s Water Resistance - 300m</li>\r\n</ul>\r\n\r\n<p>85% Polyester and 15% Spandex Fabric</p>\r\n\r\n<p>&radic;\u3010Size\u3011our sofa slipcovers have 3 sizes. Chair slipcover measures up to 32in-47in wide (80-120cm), Loveseat slipcover measures up to 57in-70in wide (145-180cm), Sofia slipcover measures up to 72in-92in (185-235cm). PLEASE measure your sofa before choosing our sofa slipcovers.</p>\r\n\r\n<p>&radic;\u3010Fabric\u3011: Our Stretchable Sofa Slipcovers Which Are Made of 85% Polyester and 15% Spandex Fabric, Are Suitable for 90% Sofas.the Great Elasticity Could Fit Your Sofa More Perfect and Cover Sofa in Ever Edge. and Unique Dyeing Technolog Keeps Your Sofa Slipcovers Not Fade. Please Note : Our Sofa Slipcovers Are Not Water-proof.</p>\r\n\r\n<p>&radic;\u3010Protection\u3011Our sofa slipcovers could help protect your furniture from daily tear, spills, stains and so on. It is a great choice for family with children and pets. It&#39;s easy to install and take off, machine washable, and the best partner for household life.</p>\r\n\r\n<p>&radic;\u3010Lifetime \u3011We are confident in our products&rsquo; quality. If you are unsatisfied with our products whichever aspects, please connect with us firstly, and we will give you a satisfying result, no matter refund or sending new slipcovers for replace. We will do our best.</p>\r\n\r\n<p>&radic;\u3010Attention\u3011Due to the different light and computer screen resolution, The color displayed on the screen may be different from the actual product. If you are not sure about the color or anything else, PLEASE contact US and we will assist you..</p>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-16T17:48:01.000000Z",
+      "updated_at": "2022-04-24T04:47:20.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-13-62566e1a35c9c.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 0,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "added_by": "seller",
+      "user_id": 3,
+      "name": "Classic Sneakers For Men",
+      "slug": "product-1-9x9CNa",
+      "category_ids": [
+        { "id": "27", "position": 1 },
+        { "id": "21", "position": 3 }
+      ],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-20-625f76257bac9.png",
+        "2022-04-20-625f763a7d13b.png",
+        "2022-04-20-625f763a7e335.png"
+      ],
+      "thumbnail": "2022-04-20-625f76257cdf2.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Amethyst", "code": "#9966CC" },
+        { "name": "Aqua", "code": "#00FFFF" }
+      ],
+      "variant_product": 0,
+      "attributes": [2],
+      "choice_options": [
+        {
+          "name": "choice_2",
+          "title": "type",
+          "options": ["a", "              b"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "Amethyst-a",
+          "price": 500,
+          "sku": "p1-Amethyst-a",
+          "qty": 85
+        },
+        {
+          "type": "Amethyst-b",
+          "price": 500,
+          "sku": "p1-Amethyst-b",
+          "qty": 100
+        },
+        { "type": "Aqua-a", "price": 500, "sku": "p1-Aqua-a", "qty": 99 },
+        { "type": "Aqua-b", "price": 500, "sku": "p1-Aqua-b", "qty": 100 }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 384,
+      "details": "<h2>Product details of Classy Sneakers for Men</h2>\r\n\r\n<ul>\r\n\t<li>High quality grip sou</li>\r\n\t<li>Stylish coloue</li>\r\n\t<li>Lace system</li>\r\n\t<li>Comfortable sneakers</li>\r\n\t<li>Best Quality</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-16T18:05:24.000000Z",
+      "updated_at": "2022-04-24T04:45:04.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-20-625f76257cf8c.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 10,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 1,
+      "rating": [{ "average": "3.0000", "product_id": 8 }],
+      "translations": [],
+      "reviews": [
+        {
+          "id": 2,
+          "product_id": 8,
+          "customer_id": 2,
+          "comment": "asdf",
+          "attachment": "[\"2022-04-11-6253b5736eba2.png\"]",
+          "rating": 3,
+          "status": 1,
+          "created_at": "2022-04-11T08:58:27.000000Z",
+          "updated_at": "2022-04-11T08:58:27.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "added_by": "seller",
+      "user_id": 1,
+      "name": "The school of life - emotional baggage tote bag - canvas tote bag (navy)",
+      "slug": "test-1-w3PUfR",
+      "category_ids": [{ "id": "11", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-23-626362bcd935b.png",
+        "2022-04-23-626362bcdb73b.png"
+      ],
+      "thumbnail": "2022-04-23-626362bcdbc49.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "IndianRed", "code": "#CD5C5C" },
+        { "name": "BlueViolet", "code": "#8A2BE2" }
+      ],
+      "variant_product": 0,
+      "attributes": [1, 2],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["S", "          L"]
+        },
+        { "name": "choice_2", "title": "type", "options": ["A", "          B"] }
+      ],
+      "variation": [
+        { "type": "BlueViolet-S-A", "price": 500, "sku": null, "qty": 97 },
+        { "type": "BlueViolet-S-B", "price": 500, "sku": null, "qty": 100 },
+        { "type": "BlueViolet-L-A", "price": 500, "sku": null, "qty": 100 },
+        { "type": "BlueViolet-L-B", "price": 500, "sku": null, "qty": 100 },
+        { "type": "IndianRed-S-A", "price": 500, "sku": null, "qty": 98 },
+        { "type": "IndianRed-S-B", "price": 500, "sku": null, "qty": 100 },
+        { "type": "IndianRed-L-A", "price": 500, "sku": null, "qty": 100 },
+        { "type": "IndianRed-L-B", "price": 500, "sku": null, "qty": 100 }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 795,
+      "details": "<h3>About this item</h3>\r\n\r\n<ul>\r\n\t<li>SMALL BUT MIGHTY - If it takes an earthquake or siren to wake you up, this classically designed clock is exactly what you are looking for. The 3-level adjustable shaker is perfect for heavy sleeper or those with hearing loss. You also have the option to combine the vibration with the built-in alarm sound (buzzer, bird or music).</li>\r\n\t<li>EASY TO SETUP - Turning the two &ldquo;ears&rdquo; to set the time and alarm is extremely intuitive and straightforward. With all buttons clearly labeled and almost no two functions sharing the same button, it is a breeze to use right out of the box and change settings.</li>\r\n\t<li>CUSTOMIZABLE ALARM&nbsp;- The brightness of the classic is dial-controlled and adjustable from 0 to 100%. Dual alarms satisfy the need of anyone who shares the bed with a partner on a different morning schedule. Snooze allows extra 9 minutes of slumber.</li>\r\n\t<li>USB PORTS AND BATTERY BACKUP&nbsp;- 1 USB port located at the back will&nbsp;charge your mobile device while you sleep. AC-powered, but you have the option to back it up with 2 AAA batteries (NOT included) in case of power outage. Not only time and settings are restored, but alarms are also supported (vibration and USB will not work).</li>\r\n\t<li>If you have any questions or comments, please don&rsquo;t hesitate to contact us - we are always here to help.</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-20T03:38:31.000000Z",
+      "updated_at": "2022-04-24T04:44:54.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-23-626362bcdbeba.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 800,
+      "multiply_qty": 0,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 5,
+      "rating": [{ "average": "4.4000", "product_id": 12 }],
+      "translations": [],
+      "reviews": [
+        {
+          "id": 6,
+          "product_id": 12,
+          "customer_id": 2,
+          "comment": "asdf",
+          "attachment": "[\"2022-04-13-62565c1b35762.png\"]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-13T09:14:03.000000Z",
+          "updated_at": "2022-04-13T09:14:03.000000Z"
+        },
+        {
+          "id": 7,
+          "product_id": 12,
+          "customer_id": 2,
+          "comment": "abc",
+          "attachment": "[\"2022-04-13-6256904774a0f.png\"]",
+          "rating": 3,
+          "status": 1,
+          "created_at": "2022-04-13T08:56:39.000000Z",
+          "updated_at": "2022-04-13T08:56:39.000000Z"
+        },
+        {
+          "id": 9,
+          "product_id": 12,
+          "customer_id": 2,
+          "comment": null,
+          "attachment": "[]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-18T04:18:33.000000Z",
+          "updated_at": "2022-04-18T04:18:33.000000Z"
+        },
+        {
+          "id": 10,
+          "product_id": 12,
+          "customer_id": 2,
+          "comment": null,
+          "attachment": "[]",
+          "rating": 4,
+          "status": 1,
+          "created_at": "2022-04-18T04:32:01.000000Z",
+          "updated_at": "2022-04-18T04:32:01.000000Z"
+        },
+        {
+          "id": 11,
+          "product_id": 12,
+          "customer_id": 2,
+          "comment": null,
+          "attachment": "[]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-18T04:33:15.000000Z",
+          "updated_at": "2022-04-18T04:33:15.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "added_by": "seller",
+      "user_id": 1,
+      "name": "Kids Wood Table and 4 Chair Set, Natural Table, Assorted Color Chairs",
+      "slug": "test-2-IoKmGU",
+      "category_ids": [{ "id": "26", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": ["2022-04-23-62640a155726f.png"],
+      "thumbnail": "2022-04-23-62640a15585e7.png",
+      "featured": 0,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "BlueViolet", "code": "#8A2BE2" },
+        { "name": "GreenYellow", "code": "#ADFF2F" }
+      ],
+      "variant_product": 0,
+      "attributes": [1, 2],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["S", "              L"]
+        },
+        {
+          "name": "choice_2",
+          "title": "type",
+          "options": ["A", "              B"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "BlueViolet-S-A",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-BlueViolet-S-A",
+          "qty": 0
+        },
+        {
+          "type": "BlueViolet-S-B",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-BlueViolet-S-B",
+          "qty": 1
+        },
+        {
+          "type": "BlueViolet-L-A",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-BlueViolet-L-A",
+          "qty": 1
+        },
+        {
+          "type": "BlueViolet-L-B",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-BlueViolet-L-B",
+          "qty": 1
+        },
+        {
+          "type": "GreenYellow-S-A",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-GreenYellow-S-A",
+          "qty": 1
+        },
+        {
+          "type": "GreenYellow-S-B",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-GreenYellow-S-B",
+          "qty": 1
+        },
+        {
+          "type": "GreenYellow-L-A",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-GreenYellow-L-A",
+          "qty": 1
+        },
+        {
+          "type": "GreenYellow-L-B",
+          "price": 500,
+          "sku": "KWTa4CSNTACC-GreenYellow-L-B",
+          "qty": 1
+        }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 7,
+      "details": "<h3>About this item</h3>\r\n\r\n<ul>\r\n\t<li>SMALL BUT MIGHTY - If it takes an earthquake or siren to wake you up, this classically designed clock is exactly what you are looking for. The 3-level adjustable shaker is perfect for heavy sleeper or those with hearing loss. You also have the option to combine the vibration with the built-in alarm sound (buzzer, bird or music).</li>\r\n\t<li>EASY TO SETUP - Turning the two &ldquo;ears&rdquo; to set the time and alarm is extremely intuitive and straightforward. With all buttons clearly labeled and almost no two functions sharing the same button, it is a breeze to use right out of the box and change settings.</li>\r\n\t<li>CUSTOMIZABLE ALARM&nbsp;- The brightness of the classic is dial-controlled and adjustable from 0 to 100%. Dual alarms satisfy the need of anyone who shares the bed with a partner on a different morning schedule. Snooze allows extra 9 minutes of slumber.</li>\r\n\t<li>USB PORTS AND BATTERY BACKUP&nbsp;- 1 USB port located at the back will&nbsp;charge your mobile device while you sleep. AC-powered, but you have the option to back it up with 2 AAA batteries (NOT included) in case of power outage. Not only time and settings are restored, but alarms are also supported (vibration and USB will not work).</li>\r\n\t<li>If you have any questions or comments, please don&rsquo;t hesitate to contact us - we are always here to help.</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-20T03:45:38.000000Z",
+      "updated_at": "2022-04-24T04:44:55.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-23-62640a15587af.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 50,
+      "multiply_qty": 0,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    },
+    {
+      "id": 15,
+      "added_by": "seller",
+      "user_id": 3,
+      "name": "Latest Cool headphone with Bluetooth version 5.0",
+      "slug": "test-1-H27JWE",
+      "category_ids": [{ "id": "26", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-20-625fea103e6b9.png",
+        "2022-04-20-625fea103f82f.png",
+        "2022-04-20-625fea103f8f2.png"
+      ],
+      "thumbnail": "2022-04-20-625fea103fa22.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "IndianRed", "code": "#CD5C5C" },
+        { "name": "BlueViolet", "code": "#8A2BE2" }
+      ],
+      "variant_product": 0,
+      "attributes": [1],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["S", "            L"]
+        }
+      ],
+      "variation": [
+        { "type": "BlueViolet-S", "price": 500, "sku": null, "qty": 100 },
+        { "type": "BlueViolet-L", "price": 500, "sku": null, "qty": 100 },
+        { "type": "IndianRed-S", "price": 500, "sku": null, "qty": 98 },
+        { "type": "IndianRed-L", "price": 500, "sku": null, "qty": 100 }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 398,
+      "details": "<h3>About this item</h3>\r\n\r\n<ul>\r\n\t<li>SMALL BUT MIGHTY - If it takes an earthquake or siren to wake you up, this classically designed clock is exactly what you are looking for. The 3-level adjustable shaker is perfect for heavy sleeper or those with hearing loss. You also have the option to combine the vibration with the built-in alarm sound (buzzer, bird or music).</li>\r\n\t<li>EASY TO SETUP - Turning the two &ldquo;ears&rdquo; to set the time and alarm is extremely intuitive and straightforward. With all buttons clearly labeled and almost no two functions sharing the same button, it is a breeze to use right out of the box and change settings.</li>\r\n\t<li>CUSTOMIZABLE ALARM&nbsp;- The brightness of the classic is dial-controlled and adjustable from 0 to 100%. Dual alarms satisfy the need of anyone who shares the bed with a partner on a different morning schedule. Snooze allows extra 9 minutes of slumber.</li>\r\n\t<li>USB PORTS AND BATTERY BACKUP&nbsp;- 1 USB port located at the back will&nbsp;charge your mobile device while you sleep. AC-powered, but you have the option to back it up with 2 AAA batteries (NOT included) in case of power outage. Not only time and settings are restored, but alarms are also supported (vibration and USB will not work).</li>\r\n\t<li>If you have any questions or comments, please don&rsquo;t hesitate to contact us - we are always here to help.</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-20T03:54:02.000000Z",
+      "updated_at": "2022-04-24T04:44:51.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-20-625fea104015d.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 50,
+      "multiply_qty": 0,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    },
+    {
+      "id": 16,
+      "added_by": "seller",
+      "user_id": 1,
+      "name": "London Beauty Soap Bar",
+      "slug": "test-20-c1xeH7",
+      "category_ids": [{ "id": "15", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": ["2022-04-16-625a271b620f3.png"],
+      "thumbnail": "2022-04-16-625a271b671e8.png",
+      "featured": 0,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "IndianRed", "code": "#CD5C5C" },
+        { "name": "HotPink", "code": "#FF69B4" }
+      ],
+      "variant_product": 0,
+      "attributes": [2],
+      "choice_options": [
+        {
+          "name": "choice_2",
+          "title": "type",
+          "options": ["a", "                    b"]
+        }
+      ],
+      "variation": [
+        { "type": "HotPink-a", "price": 500, "sku": "t2-HotPink-a", "qty": 1 },
+        { "type": "HotPink-b", "price": 500, "sku": "t2-HotPink-b", "qty": 1 },
+        {
+          "type": "IndianRed-a",
+          "price": 500,
+          "sku": "t2-IndianRed-a",
+          "qty": 1
+        },
+        {
+          "type": "IndianRed-b",
+          "price": 500,
+          "sku": "t2-IndianRed-b",
+          "qty": 0
+        }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 3,
+      "details": "<h3>About this item</h3>\r\n\r\n<ul>\r\n\t<li>SMALL BUT MIGHTY - If it takes an earthquake or siren to wake you up, this classically designed clock is exactly what you are looking for. The 3-level adjustable shaker is perfect for heavy sleeper or those with hearing loss. You also have the option to combine the vibration with the built-in alarm sound (buzzer, bird or music).</li>\r\n\t<li>EASY TO SETUP - Turning the two &ldquo;ears&rdquo; to set the time and alarm is extremely intuitive and straightforward. With all buttons clearly labeled and almost no two functions sharing the same button, it is a breeze to use right out of the box and change settings.</li>\r\n\t<li>CUSTOMIZABLE ALARM&nbsp;- The brightness of the classic is dial-controlled and adjustable from 0 to 100%. Dual alarms satisfy the need of anyone who shares the bed with a partner on a different morning schedule. Snooze allows extra 9 minutes of slumber.</li>\r\n\t<li>USB PORTS AND BATTERY BACKUP&nbsp;- 1 USB port located at the back will&nbsp;charge your mobile device while you sleep. AC-powered, but you have the option to back it up with 2 AAA batteries (NOT included) in case of power outage. Not only time and settings are restored, but alarms are also supported (vibration and USB will not work).</li>\r\n\t<li>If you have any questions or comments, please don&rsquo;t hesitate to contact us - we are always here to help.</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-03-20T04:20:06.000000Z",
+      "updated_at": "2022-04-24T04:44:52.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-16-625a271b673cf.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 10,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 1,
+      "rating": [{ "average": "5.0000", "product_id": 16 }],
+      "translations": [],
+      "reviews": [
+        {
+          "id": 5,
+          "product_id": 16,
+          "customer_id": 2,
+          "comment": "asdf",
+          "attachment": "[]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-13T07:09:03.000000Z",
+          "updated_at": "2022-04-13T07:09:03.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "added_by": "admin",
+      "user_id": 1,
+      "name": "Simple Mobile Carrier-Locked Galaxy A50 4G LTE Prepaid Smartphone - Blac",
+      "slug": "product-123-6fJ1ft",
+      "category_ids": [{ "id": "26", "position": 1 }],
+      "brand_id": 5,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-20-625fe97735186.png",
+        "2022-04-20-625fe9773655b.png",
+        "2022-04-20-625fe9773672a.png"
+      ],
+      "thumbnail": "2022-04-20-625fe97736a17.png",
+      "featured": 0,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [
+        { "name": "Amethyst", "code": "#9966CC" },
+        { "name": "AliceBlue", "code": "#F0F8FF" }
+      ],
+      "variant_product": 0,
+      "attributes": [1, 2],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["s", "                    l"]
+        },
+        {
+          "name": "choice_2",
+          "title": "type",
+          "options": ["a", "                    b"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "AliceBlue-s-a",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-s-a",
+          "qty": 1
+        },
+        {
+          "type": "AliceBlue-s-b",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-s-b",
+          "qty": 1
+        },
+        {
+          "type": "AliceBlue-l-a",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-l-a",
+          "qty": 1
+        },
+        {
+          "type": "AliceBlue-l-b",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-l-b",
+          "qty": 1
+        },
+        {
+          "type": "Amethyst-s-a",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-Amethyst-s-a",
+          "qty": 1
+        },
+        {
+          "type": "Amethyst-s-b",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-Amethyst-s-b",
+          "qty": 1
+        },
+        {
+          "type": "Amethyst-l-a",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-Amethyst-l-a",
+          "qty": 1
+        },
+        {
+          "type": "Amethyst-l-b",
+          "price": 500,
+          "sku": "Tsol-ebtb-ctb(-Amethyst-l-b",
+          "qty": 1
+        }
+      ],
+      "published": 0,
+      "unit_price": 500,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 8,
+      "details": "<h3>About this item</h3>\r\n\r\n<ul>\r\n\t<li>CARRIER: This phone is locked to Simple Mobile, which means this device can only be used on the Simple Mobile wireless network.</li>\r\n\t<li>Long Lasting. Fast Charging: With an extensive 4, 000 mAh long-lasting battery, the Galaxy A50 keeps up with your fast paced life-throughout the day and into the night. When you need a boost, power back up quickly with Fast Charging.</li>\r\n\t<li>Keep More: With 64GB of built-in memory, you can keep more of your photos, shows, movies and apps without having to delete to make room. If you need more space, expand your memory up to 512GB with a microSD card and store up to 200, 000 photos.</li>\r\n\t<li>See More On An Expansive Screen: Upgrade your view with a brilliant 6. 4&quot; FHD Super AMOLED Display. Plus, the large Infinity Display goes edge-to-edge, so you&rsquo;ll never miss anything. Featuring a dual-lens, the Galaxy A50 is the only camera you&rsquo;ll need. Capture more of what you see in every shot, thanks to an ultra wide camera. Shoot scenic photos with a 25MP + 5MP + 8MP rear cameras or take flattering selfies with an 25MP front camera.</li>\r\n\t<li>6. 4&quot; FHD Super AMOLED Display; 2. 3GHz + 1. 7GHz Octa-Core Processor; Android 9 Pie; 4, 000mAh Battery; 25MP + 8MP Wide + 5MP Depth Rear Cameras/25MP Front-Facing Camera; Internal memory 64GB supports Micro SD memory card up to 512GB (not included); 4GB RAM; 4G LTE; Wi-Fi Connectivity &ndash; 802. 11 b/g/n (2. 4GHz + 5. 0GHz); Bluetooth 5. 0</li>\r\n\t<li>Phone Memory Storage Capacity: 1000</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-04-10T11:59:05.000000Z",
+      "updated_at": "2022-04-24T03:54:58.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "Simple Mobile Carrier-Locked Galaxy A50 4G LTE Prepaid Smartphone - Blac",
+      "meta_description": "CARRIER: This phone is locked to Simple Mobile, which means this device can only be used on the Simple Mobile wireless network.\r\nLong Lasting. Fast Charging: With an extensive 4, 000 mAh long",
+      "meta_image": "2022-04-20-625fe97736c9a.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 10,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 2,
+      "rating": [{ "average": "5.0000", "product_id": 17 }],
+      "translations": [],
+      "reviews": [
+        {
+          "id": 1,
+          "product_id": 17,
+          "customer_id": 2,
+          "comment": "asdf",
+          "attachment": "[\"2022-04-10-62529e4ca826f.png\"]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-10T13:07:24.000000Z",
+          "updated_at": "2022-04-10T13:07:24.000000Z"
+        },
+        {
+          "id": 3,
+          "product_id": 17,
+          "customer_id": 2,
+          "comment": null,
+          "attachment": "[\"2022-04-12-625515aaadb88.png\"]",
+          "rating": 5,
+          "status": 1,
+          "created_at": "2022-04-12T10:01:14.000000Z",
+          "updated_at": "2022-04-12T10:01:14.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "added_by": "admin",
+      "user_id": 1,
+      "name": "Timex marlin stainless steel hand-wound movement",
+      "slug": "product-111-s6WUwV",
+      "category_ids": [
+        { "id": "15", "position": 1 },
+        { "id": "19", "position": 2 },
+        { "id": "22", "position": 3 }
+      ],
+      "brand_id": 5,
+      "unit": "pc",
+      "min_qty": 1,
+      "refundable": 1,
+      "images": [
+        "2022-04-20-625fe62a9a75b.png",
+        "2022-04-20-625fe62a9b965.png",
+        "2022-04-20-625fe62a9ba9f.png"
+      ],
+      "thumbnail": "2022-04-20-625fe611c0c72.png",
+      "featured": 1,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [{ "name": "AliceBlue", "code": "#F0F8FF" }],
+      "variant_product": 0,
+      "attributes": [1, 2],
+      "choice_options": [
+        {
+          "name": "choice_1",
+          "title": "size",
+          "options": ["s", "                  l"]
+        },
+        {
+          "name": "choice_2",
+          "title": "type",
+          "options": ["a", "                  b"]
+        }
+      ],
+      "variation": [
+        {
+          "type": "AliceBlue-s-a",
+          "price": 5000,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-s-a",
+          "qty": 1
+        },
+        {
+          "type": "AliceBlue-s-b",
+          "price": 5000,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-s-b",
+          "qty": 1
+        },
+        {
+          "type": "AliceBlue-l-a",
+          "price": 5000,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-l-a",
+          "qty": 1
+        },
+        {
+          "type": "AliceBlue-l-b",
+          "price": 5000,
+          "sku": "Tsol-ebtb-ctb(-AliceBlue-l-b",
+          "qty": 1
+        }
+      ],
+      "published": 0,
+      "unit_price": 5000,
+      "purchase_price": 400,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 4,
+      "details": "<h1>About this item</h1>\r\n\r\n<ul>\r\n\t<li>SMALL BUT MIGHTY - If it takes an earthquake or siren to wake you up, this classically designed clock is exactly what you are looking for. The 3-level adjustable shaker is perfect for heavy sleeper or those with hearing loss. You also have the option to combine the vibration with the built-in alarm sound (buzzer, bird or music).</li>\r\n\t<li>EASY TO SETUP - Turning the two &ldquo;ears&rdquo; to set the time and alarm is extremely intuitive and straightforward. With all buttons clearly labeled and almost no two functions sharing the same button, it is a breeze to use right out of the box and change settings.</li>\r\n\t<li>CUSTOMIZABLE ALARM&nbsp;- The brightness of the classic is dial-controlled and adjustable from 0 to 100%. Dual alarms satisfy the need of anyone who shares the bed with a partner on a different morning schedule. Snooze allows extra 9 minutes of slumber.</li>\r\n\t<li>USB PORTS AND BATTERY BACKUP&nbsp;- 1 USB port located at the back will&nbsp;charge your mobile device while you sleep. AC-powered, but you have the option to back it up with 2 AAA batteries (NOT included) in case of power outage. Not only time and settings are restored, but alarms are also supported (vibration and USB will not work).</li>\r\n\t<li>If you have any questions or comments, please don&rsquo;t hesitate to contact us - we are always here to help.</li>\r\n</ul>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": "2022-04-11T09:50:47.000000Z",
+      "updated_at": "2022-04-24T04:47:13.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": "abc",
+      "meta_description": "abc",
+      "meta_image": "2022-04-20-625fe611c0eb4.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 10,
+      "multiply_qty": 1,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    },
+    {
+      "id": 21,
+      "added_by": "admin",
+      "user_id": 1,
+      "name": "Demo Product 22",
+      "slug": "demo-product-22-683ZUQ",
+      "category_ids": [{ "id": "26", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 23,
+      "refundable": 0,
+      "images": ["2022-04-19-625e6f7c034c3.png"],
+      "thumbnail": "2022-04-19-625e6f7c06567.png",
+      "featured": 0,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": "https://www.youtube.com/watch?v=2D-rr4gv3fk",
+      "colors": [],
+      "variant_product": 0,
+      "attributes": [],
+      "choice_options": [],
+      "variation": [],
+      "published": 0,
+      "unit_price": 55,
+      "purchase_price": 59,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 99,
+      "details": "<p>hhhhh</p>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": null,
+      "updated_at": "2022-04-24T04:03:10.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_image": "2022-04-19-625e6f7c0671d.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 0,
+      "multiply_qty": 0,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    },
+    {
+      "id": 22,
+      "added_by": "admin",
+      "user_id": 1,
+      "name": "Artificial Leather Shoes for Men by Mosharrof Shoes",
+      "slug": "demo-product-23-iLZaLC",
+      "category_ids": [{ "id": "12", "position": 1 }],
+      "brand_id": 1,
+      "unit": "pc",
+      "min_qty": 33,
+      "refundable": 0,
+      "images": ["2022-04-19-625e6fb8d2d0a.png"],
+      "thumbnail": "2022-04-19-625e6fb8d4217.png",
+      "featured": 0,
+      "flash_deal": null,
+      "video_provider": "youtube",
+      "video_url": null,
+      "colors": [],
+      "variant_product": 0,
+      "attributes": [],
+      "choice_options": [],
+      "variation": [],
+      "published": 0,
+      "unit_price": 55,
+      "purchase_price": 59,
+      "tax": 5,
+      "tax_type": "percent",
+      "discount": 10,
+      "discount_type": "percent",
+      "current_stock": 96,
+      "details": "<h2>Product details of Artificial Leather Shoes for Men by Mosharrof Shoes</h2>\r\n\r\n<ul>\r\n\t<li>Product&nbsp;type:&nbsp;Artificial&nbsp;Leather&nbsp;Shoes</li>\r\n\t<li>Color:&nbsp;Brown</li>\r\n\t<li>Main&nbsp;Material:&nbsp;Artificial&nbsp;Leather</li>\r\n\t<li>Gender:&nbsp;Men</li>\r\n\t<li>Marketed&nbsp;by&nbsp;Mosharrof&nbsp;Shop</li>\r\n\t<li>100%&nbsp;authentic</li>\r\n\t<li>Comfortable&nbsp;to&nbsp;wear</li>\r\n\t<li>Longlasting&nbsp;and&nbsp;durable</li>\r\n\t<li>Trendy&nbsp;and&nbsp;stylish&nbsp;design</li>\r\n\t<li>Best&nbsp;Product&nbsp;in&nbsp;Low&nbsp;Price</li>\r\n</ul>\r\n\r\n<ul>\r\n\t<li>Product&nbsp;type:&nbsp;Artificial&nbsp;Leather&nbsp;Shoes</li>\r\n\t<li>Color:&nbsp;Brown</li>\r\n\t<li>Main&nbsp;Material:&nbsp;Artificial&nbsp;Leather</li>\r\n\t<li>Gender:&nbsp;Men</li>\r\n\t<li>Marketed&nbsp;by&nbsp;Mosharrof&nbsp;Shop</li>\r\n\t<li>100%&nbsp;authentic</li>\r\n\t<li>Comfortable&nbsp;to&nbsp;wear</li>\r\n\t<li>Longlasting&nbsp;and&nbsp;durable</li>\r\n\t<li>Trendy&nbsp;and&nbsp;stylish&nbsp;design</li>\r\n\t<li>Best&nbsp;Product&nbsp;in&nbsp;Low&nbsp;Price</li>\r\n</ul>\r\n\r\n<h2>Specifications of Artificial Leather Shoes for Men by Mosharrof Shoes</h2>\r\n\r\n<ul>\r\n\t<li>Brand\r\n\t<p>No Brand</p>\r\n\t</li>\r\n\t<li>SKU\r\n\t<p>179296202_BD-1120399316</p>\r\n\t</li>\r\n\t<li>Main Material\r\n\t<p>Leather</p>\r\n\t</li>\r\n\t<li>Leather Material\r\n\t<p>Cow Leather</p>\r\n\t</li>\r\n\t<li>Color\r\n\t<p>brown</p>\r\n\t</li>\r\n\t<li>Material Family\r\n\t<p>Leather</p>\r\n\t</li>\r\n\t<li>Area Of Use\r\n\t<p>Footwear</p>\r\n\t</li>\r\n\t<li>Designer\r\n\t<p>Mosharrof Shoes</p>\r\n\t</li>\r\n\t<li>Season\r\n\t<p>All season</p>\r\n\t</li>\r\n</ul>\r\n\r\n<p>What&rsquo;s in the box</p>\r\n\r\n<p>Artificial Leather Shoes for Men by Mosharrof Shoes</p>",
+      "free_shipping": 0,
+      "attachment": null,
+      "created_at": null,
+      "updated_at": "2022-04-24T04:09:39.000000Z",
+      "status": 1,
+      "featured_status": 1,
+      "meta_title": null,
+      "meta_description": null,
+      "meta_image": "2022-04-19-625e6fb8d43d3.png",
+      "request_status": 1,
+      "denied_note": null,
+      "shipping_cost": 0,
+      "multiply_qty": 0,
+      "temp_shipping_cost": null,
+      "is_shipping_cost_updated": null,
+      "reviews_count": 0,
+      "rating": [],
+      "translations": [],
+      "reviews": []
+    }
+  ]
+}

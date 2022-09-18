@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "621687511341",
+    "project_id": "kachuwa-a39ff",
+    "storage_bucket": "kachuwa-a39ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621687511341:android:b19cb4ebba1f884b3ddba4",
+        "android_client_info": {
+          "package_name": "com.kachuwa.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621687511341-90snh8kh575u358tm8535knnlvsbvk39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kachuwa.app",
+            "certificate_hash": "53ef28a3ba6753e43c9dcd0ce131872a7a653e4c"
+          }
+        },
+        {
+          "client_id": "621687511341-efdb3ir0gsigc1gc67i7j4p62g1db31t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5IlSWnkQKXlTF1NyWdCwfLy7zYs8UgIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621687511341-efdb3ir0gsigc1gc67i7j4p62g1db31t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "paths": {
+    "/activeApi": {
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      },
+      "lambdaFunction": "activeApiFunc"
+    }
+  }
+}

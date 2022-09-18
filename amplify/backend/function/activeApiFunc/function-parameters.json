@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "kachuwa": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

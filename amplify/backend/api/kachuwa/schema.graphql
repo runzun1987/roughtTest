@@ -1,0 +1,857 @@
+type Keyword
+  @model
+  @key(
+    name: "keywordSortByKeywordCount"
+    fields: ["baseType", "keywordCount"]
+    queryField: "keywordSortByKeywordCount"
+  ) {
+  id: ID!
+  keywordCount: Int!
+  searchedKeyword: String!
+  baseType: String
+  # productBluePrint: productsBluePrint
+}
+
+# type productsBluePrint {
+#   page: Int!
+#   products: [Product]
+#   totalProducts: Int!
+# }
+
+type Product {
+  id: ID!
+  name: String!
+  price: Float!
+  pictures: [String!]
+  smPictures: [String!]
+  shortDesc: String!
+  detail_url: String!
+  category: String!
+  brands: [String!]
+  top: String!
+  rating: Int!
+  reviews: Int!
+  stock: Int!
+  totalProducts: Int!
+  page: Int!
+  searchedKeyword: String!
+}
+
+type Details {
+  name: String
+  pic_url: String
+  prop_key: String
+  value: String
+  prop_val: String
+}
+
+type Order
+  @model
+  @key(
+    name: "orderSortByCreatedAt"
+    fields: ["baseType", "createdAt"]
+    queryField: "orderSortByCreatedAt"
+  )
+  @key(
+    name: "orderUserNameSearch"
+    fields: ["baseType", "userName"]
+    queryField: "orderUserNameSearch"
+  )
+  @key(
+    name: "orderFirstNameSearch"
+    fields: ["baseType", "firstName"]
+    queryField: "orderFirstNameSearch"
+  )
+  @key(
+    name: "orderLastNameSearch"
+    fields: ["baseType", "lastName"]
+    queryField: "orderLastNameSearch"
+  )
+  @key(
+    name: "orderPhoneSearch"
+    fields: ["baseType", "phone"]
+    queryField: "orderPhoneSearch"
+  )
+  @key(
+    name: "orderPhoneSearchSortByDate"
+    fields: ["phone", "createdAt"]
+    queryField: "orderPhoneSearchSortByDate"
+  )
+  @key(
+    name: "orderEmailSearch"
+    fields: ["baseType", "email"]
+    queryField: "orderEmailSearch"
+  )
+  @key(
+    name: "orderShippingStyleSearch"
+    fields: ["baseType", "shippingStyle"]
+    queryField: "orderShippingStyleSearch"
+  )
+  @key(
+    name: "orderSortByStatus"
+    fields: ["baseType", "status"]
+    queryField: "orderSortByStatus"
+  )
+  @key(
+    name: "orderStatusByCreatedAt"
+    fields: ["status", "createdAt"]
+    queryField: "orderStatusByCreatedAt"
+  )
+  @key(
+    name: "orderSortByOrderId"
+    fields: ["baseType", "orderId"]
+    queryField: "orderSortByOrderId"
+  )
+  @key(
+    name: "orderStatusByShipNepalStatus"
+    fields: ["status", "shipNepalOrderStatus"]
+    queryField: "orderStatusByShipNepalStatus"
+  )
+  @key(name: "userOrder", fields: ["userId", "createdAt"])
+  @key(
+    name: "orderNotPaidByDate"
+    fields: ["payment", "createdAt"]
+    queryField: "orderNotPaidByDate"
+  )
+  @key(
+    name: "orderSmsSendNotPaidBySmsSendDate"
+    fields: ["smsSendNotPaid", "smsSendDate"]
+    queryField: "orderSmsSendNotPaidBySmsSendDate"
+  )
+  @key(
+    name: "orderSortByGrandTotal"
+    fields: ["baseType", "grandTotal"]
+    queryField: "orderSortByGrandTotal"
+  ) {
+  id: ID!
+  orderId: String
+  cartList: [ProductInfo!]!
+  products: [eachProductOrder!]!
+    @connection(keyName: "orderCart", fields: ["id"])
+  date: String!
+  status: String!
+  userName: String!
+  firstName: String!
+  lastName: String!
+  country: String!
+  street: String!
+  town: String!
+  phone: String!
+  email: String!
+  note: String
+  total: Int!
+  grandTotal: Int!
+  shippingStyle: String!
+  shippingPrice: Int!
+  shippingCode: Int
+  baseType: String!
+  createdAt: AWSDateTime!
+  NoCallTimes: Int
+  NoCallDate: AWSDateTime
+  userId: ID
+  userOrder: user @connection(name: "userOrder", fields: ["userId"])
+  shipNepalOrderStatus: String
+  couponCode: String
+  payment: String
+  payment_verified: Boolean
+  smsSendNotPaid: String
+  smsSendDate: AWSDateTime
+}
+#
+# type ProductInfo {
+#   totalPrice: Int!
+#   bigImageUrl: String!
+#   smallImages: [String!]
+#   title: String!
+#   price: String!
+#   stock: Int!
+#   description: String!
+#   qty: String!
+#   sum: Float!
+#   skus: String
+#   SkuId: String
+#   skus_json: String
+#   shippingStyle: String!
+#   detail: [Details]
+# }
+
+type eachProductOrder
+  @model
+  @key(name: "orderCart", fields: ["orderId", "createdAt"])
+  @key(
+    name: "eachProductOrderSortByStatus"
+    fields: ["baseType", "shippingStatus"]
+    queryField: "eachProductOrderSortByStatus"
+  )
+  @key(
+    name: "eachProductOrderSortByCreatedAt"
+    fields: ["baseType", "createdAt"]
+    queryField: "eachProductOrderSortByCreatedAt"
+  )
+  @key(
+    name: "eachProductOrderByShipNepalOrderStatus"
+    fields: ["shippingStatus", "shipNepalOrderStatus"]
+    queryField: "eachProductOrderStatusByShipNepalOrderStatus"
+  )
+  @key(
+    name: "eachProductOrderShipNepalOrderStatusByCreatedAt"
+    fields: ["shipNepalOrderStatus", "createdAt"]
+    queryField: "eachProductOrderShipNepalOrderStatusByCreatedAt"
+  )
+  @key(
+    name: "eachProductOrderIDByShipNepalOrderStatus"
+    fields: ["orderId", "shipNepalOrderStatus"]
+    queryField: "eachProductOrderIDByShipNepalOrderStatus"
+  )
+  @key(
+    name: "eachProductOrderStatusByDeliveryDate"
+    fields: ["shippingStatus", "deliveryDate"]
+    queryField: "eachProductOrderStatusByDeliveryDate"
+  )
+  @key(
+    name: "eachProductOrderStatusByCreatedAt"
+    fields: ["shippingStatus", "createdAt"]
+    queryField: "eachProductOrderStatusByCreatedAt"
+  )
+  @key(
+    name: "eachProductOrderStatusByShipNepalOrderID"
+    fields: ["baseType", "shipNepalOrderID"]
+    queryField: "eachProductOrderStatusByShipNepalOrderID"
+  ) {
+  id: ID
+  createdAt: AWSDateTime
+  secondaryOrderId: String
+  detail: [Details]
+  image: String
+  price: Int
+  productId: String
+  qty: Int
+  skuId: String
+  sum: Int
+  title: String
+  bigImageUrl: String
+
+  #ExtraAdded
+  city: String
+  tier: Int
+  shippingType: String
+  shippingCost: Int
+  sellerPrice: Int
+  ourPureShipping: Int
+  shippingStatus: String
+  deliveryDate: AWSDateTime
+  stock: Int
+  shippingCode: Int
+  purchased: Boolean
+  note: String
+  provider: String
+  orderId: ID
+  orderCart: Order @connection(name: "orderCart", fields: ["orderId"])
+  baseType: String
+  shipNepalOrderID: ID
+  selected: String
+  shipNepalOrderStatus: String
+  shipNepalOrderReceivedOn: AWSDateTime
+  shipNepalOrder: ShipNepal @connection(fields: ["shipNepalOrderID"])
+  driver: Driver @connection(name: "productsWithDriver")
+}
+
+type Driver
+  @model
+  @key(
+    name: "DriverByName"
+    fields: ["baseType", "name"]
+    queryField: "DriverByName"
+  ) {
+  name: String
+  products: [eachProductOrder] @connection(name: "productsWithDriver")
+  baseType: String
+}
+
+type ProductInfo {
+  detail: [Details]
+  image: String
+  price: Int
+  productId: String
+  qty: Int
+  skuId: String
+  sum: Int
+  title: String
+  bigImageUrl: String
+
+  #ExtraAdded
+  city: String
+  tier: Int
+  shippingType: String
+  shippingCost: Int
+  sellerPrice: Int
+  ourPureShipping: Int
+  shippingStatus: String
+  stock: Int
+  shippingCode: Int
+  purchased: Boolean
+  note: String
+  provider: String
+}
+
+type Coupon
+  @model
+  @key(
+    name: "copByName"
+    fields: ["baseType", "userName"]
+    queryField: "copByName"
+  ) {
+  id: ID!
+  userName: String!
+  couponUsed: Boolean!
+  couponName: String!
+  couponDiscount: Int!
+  baseType: String!
+}
+
+type CouponList
+  @model
+  @key(
+    name: "couponByName"
+    fields: ["baseType", "name"]
+    queryField: "couponByName"
+  ) {
+  userType: [String]
+  usedBy: [String]
+  validity: AWSDateTime
+  times: String
+  name: String
+  value: String
+  baseType: String
+}
+
+type Cart
+  @model
+  @key(
+    name: "cartSortByPhoneNumber"
+    fields: ["baseType", "phoneNumber"]
+    queryField: "cartSortByPhoneNumber"
+  )
+  @key(
+    name: "cartSortByUserName"
+    fields: ["baseType", "userName"]
+    queryField: "cartSortByUserName"
+  ) {
+  id: ID!
+  items: [ProductInfo]
+  userName: String!
+  phoneNumber: String
+  baseType: String
+}
+
+type RecoverCart @model {
+  id: ID!
+  items: [ProductInfo]
+}
+
+type RMBTotal @model {
+  id: ID!
+  total: Int!
+}
+
+type RMBStatement
+  @model
+  @key(
+    name: "rmbStatementSortDate"
+    fields: ["baseType", "createdAt"]
+    queryField: "rmbStatementByDate"
+  )
+  @key(
+    name: "rmbStatementSortType"
+    fields: ["baseType", "type"]
+    queryField: "rmbStatementSortType"
+  )
+  @key(
+    name: "rmbStatementSortUserName"
+    fields: ["baseType", "userName"]
+    queryField: "rmbStatementSortUserName"
+  )
+  @key(
+    name: "rmbStatementSortAmount"
+    fields: ["baseType", "amount"]
+    queryField: "rmbStatementSortAmount"
+  )
+  @key(
+    name: "rmbStatementSortRemBal"
+    fields: ["baseType", "remainingBal"]
+    queryField: "rmbStatementSortRemBal"
+  )
+  @key(
+    name: "rmbStatementSortPrevBal"
+    fields: ["baseType", "prevBal"]
+    queryField: "rmbStatementSortPrevBal"
+  ) {
+  id: ID!
+  createdAt: String!
+  type: String!
+  userName: String!
+  amount: Int!
+  remainingBal: Int!
+  prevBal: Int!
+  orderID: String!
+  productTitle: String!
+  note: String!
+  baseType: String
+}
+
+type Post
+  @model
+  @key(
+    name: "sortPostByDate"
+    fields: ["baseType", "createdAt"]
+    queryField: "sortPostByDate"
+  ) {
+  id: ID!
+  createdAt: String!
+  userName: String!
+  firstName: String!
+  LastName: String!
+  location: String
+  profilePic: String
+  phone: String
+  email: String
+  type: String
+  caption: String
+  images: [String]
+  comments: [Comment] @connection(name: "PostComments")
+  likes: [Like] @connection(name: "PostLikes")
+  baseType: String
+}
+
+type Comment
+  @model
+  @key(
+    name: "sortCommentByPostId"
+    fields: ["userName", "postId"]
+    queryField: "sortCommentByPostId"
+  )
+  @key(
+    name: "sortCommentByUpdatedAt"
+    fields: ["baseType", "updatedAt"]
+    queryField: "sortCommentByUpdatedAt"
+  )
+  @key(
+    name: "sortCommentByCommentId"
+    fields: ["id", "topCommentId"]
+    queryField: "sortCommentByCommentId"
+  ) {
+  id: ID!
+  updatedAt: String!
+  userName: String!
+  firstName: String!
+  LastName: String!
+  location: String
+  profilePic: String
+  phone: String
+  email: String
+  comment: String!
+  likes: [Like] @connection(name: "CommentLikes")
+  baseType: String
+  postId: ID!
+  topCommentId: ID
+  children: [Comment] @connection(name: "CommentChild")
+  postComment: Post @connection(name: "PostComments")
+  commentId: Comment @connection(name: "CommentChild")
+}
+
+type Like
+  @model
+  @key(
+    name: "sortLikeByPostId"
+    fields: ["userName", "postId"]
+    queryField: "sortLikeByPostId"
+  )
+  @key(
+    name: "sortLikeByCreatedAt"
+    fields: ["baseType", "createdAt"]
+    queryField: "sortLikeByCreatedAt"
+  ) {
+  id: ID!
+  createdAt: String!
+  userName: String!
+  firstName: String!
+  LastName: String!
+  location: String
+  profilePic: String
+  phone: String
+  email: String
+  reaction: String
+  baseType: String
+  postId: ID!
+  postLike: Post @connection(name: "PostLikes")
+  comment: Comment @connection(name: "CommentLikes")
+}
+
+type quickSale @model {
+  title: String!
+  smallImages: [String]!
+  bigImageUrl: String!
+  description: String!
+  price: Int!
+  adult: Boolean!
+  sellerShippingPrice: Int!
+  skus_json: AWSJSON!
+  stock: Int!
+  prop_obj: AWSJSON!
+  baseType: String!
+
+  productId: String
+  provider: String
+  provider_slug: String
+  url: String
+  category: String
+  categoryId: String
+
+  subCategory: String
+  subCategoryId: String
+  tags: [String]
+}
+
+type freeShipping @model {
+  title: String!
+  smallImages: [String]!
+  bigImageUrl: String!
+  description: String!
+  price: Int!
+  adult: Boolean!
+  sellerShippingPrice: Int!
+  skus_json: AWSJSON!
+  stock: Int!
+  prop_obj: AWSJSON!
+  baseType: String!
+
+  productId: String
+  provider: String
+  provider_slug: String
+  url: String
+  category: String
+  categoryId: String
+
+  subCategory: String
+  subCategoryId: String
+  tags: [String]
+}
+
+#111111111111111
+
+type OverAllReviews
+  @model
+  @key(
+    name: "sortOverAllReviewsByProductId"
+    fields: ["baseType", "productId"]
+    queryField: "sortOverAllReviewsByProductId"
+  ) {
+  productId: String!
+  review: Int!
+  ratings: Float!
+  baseType: String!
+}
+
+type ProductReview
+  @model
+  @key(
+    name: "sortCommentByProductId"
+    fields: ["baseType", "productId"]
+    queryField: "sortCommentByProductId"
+  )
+  @key(
+    name: "sortCommentByUserName"
+    fields: ["baseType", "userName"]
+    queryField: "sortCommentByUserName"
+  ) {
+  productId: String!
+  firstName: String!
+  lastName: String!
+  userName: String!
+  star: Int!
+  message: String!
+  baseType: String!
+}
+
+type PlayList @model {
+  name: String!
+  singer: String!
+  cover: String!
+  musicSrc: String!
+}
+
+type audioOption @model {
+  autoPlay: Boolean!
+  defaultVolume: Int!
+  theme: String!
+  defaultPlayIndex: Int!
+  remember: Boolean!
+  top: Int!
+  left: Int!
+  mode: String!
+}
+
+type whoIsPlaying @model {
+  songName: String!
+  singerName: String!
+  coverPic: String!
+  firstName: String!
+  lastName: String!
+  userName: String!
+}
+
+type notificationStatus
+  @model
+  @key(
+    name: "sortNotificationByUserName"
+    fields: ["baseType", "userName"]
+    queryField: "sortNotificationByUserName"
+  ) {
+  firstName: String!
+  lastName: String!
+  userName: String!
+  notification: String!
+  baseType: String!
+}
+
+type newsletter @model {
+  isTrue: Boolean!
+  title: String!
+  detail: String!
+}
+
+type banner
+  @model
+  @key(
+    name: "sortBannerByCreatedAt"
+    fields: ["baseType", "createdAt"]
+    queryField: "sortBannerByCreatedAt"
+  ) {
+  createdAt: String!
+  image: String!
+  mobileImg: String!
+  title: String!
+  title2: String!
+  subTitle: String!
+  button: String
+  url: String
+  baseType: String
+}
+
+type confirmedUserCount @model {
+  confirmedUsers: Int
+}
+
+type user @model {
+  id: ID!
+  country: String
+  email_verified: Boolean
+  firstName: String
+  street: String
+  town: String
+  lastName: String
+  phone_verified: Boolean
+  phone: String!
+  email: String!
+  userName: String
+  userStatus: String
+  createdAt: AWSDateTime!
+  baseType: String
+  orders: [Order] @connection(keyName: "userOrder", fields: ["id"])
+}
+
+type ShipNepal @model {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  order_id: String
+  date: AWSDateTime
+  order_status: String
+  products: [ShipNepalProduct]
+    @connection(keyName: "topShipNepal", fields: ["id"])
+  baseType: String
+}
+
+type WayBill @model {
+  id: ID!
+  wayBillNumber: String
+  product: [ShipNepalProduct]
+    @connection(keyName: "wayBillShipNepal", fields: ["id"])
+  baseType: String
+}
+
+type ShipNepalProduct
+  @model
+  @key(name: "topShipNepal", fields: ["shipNepalId", "createdAt"])
+  @key(name: "wayBillShipNepal", fields: ["wayBillId", "createdAt"])
+  @key(
+    name: "shipNepalProductByProductUrl"
+    fields: ["baseType", "product_url"]
+    queryField: "shipNepalProductByProductUrl"
+  )
+  @key(
+    name: "shipNepalProductByWayBillNumber"
+    fields: ["baseType", "way_bill_number"]
+    queryField: "shipNepalProductByWayBillNumber"
+  ) {
+  id: ID!
+  createdAt: AWSDateTime
+  price: String
+  total: String
+  qty: String
+  tracking_number: String
+  weight: String
+  grand_total: String
+  pic: String
+  product_url: String
+  product_id: String
+  way_bill_number: String
+  order_status: String
+  baseType: String
+  shipNepalId: ID
+  topShipNepal: ShipNepal
+    @connection(name: "topShipNepal", fields: ["shipNepalId"])
+  wayBillId: ID
+  wayBillShipNepal: WayBill
+    @connection(name: "wayBillShipNepal", fields: ["wayBillId"])
+}
+
+type scrapTrigger @model {
+  triggered: String @function(name: "scrapShipNepal-kachuwa")
+}
+
+type ScrapDetail @model {
+  started: AWSDateTime
+  currentStatus: String
+}
+
+type Balance @model {
+  balance: String
+}
+type Expenses
+  @model
+  @key(
+    name: "getExpenseByDate"
+    fields: ["baseType", "createdAt"]
+    queryField: "getExpenseByDate"
+  ) {
+  createdAt: AWSDateTime
+  description: String
+  amount: Int
+  type: String
+  baseType: String
+}
+
+type ApiInfo @model {
+  detail: String
+}
+
+type Price @model {
+  code: String
+}
+
+type PaymentLog @model {
+  amt: String
+  oid: String
+  q: String
+  refId: String
+  checkResponseESewa: String
+  esewaError: String
+  userPhone: String
+  cartList: String
+  paymentSelected: String
+  khaltiEvent: String
+  khaltiError: String
+  khaltiResponse: String
+}
+
+type UserWishList
+  @key(
+    name: "publicWishList"
+    fields: ["baseType", "isPublic"]
+    queryField: "publicWishList"
+  )
+  @key(
+    name: "wishListByUserPhone"
+    fields: ["baseType", "userPhone"]
+    queryField: "wishListByUserPhone"
+  )
+  @key(
+    name: "UserWishListByProductId"
+    fields: ["userPhone", "productId"]
+    queryField: "UserWishListByProductId"
+  )
+  @model {
+  userPhone: String
+  productId: String
+  provider: String
+  title: String
+  price: String
+  image: String
+  isPublic: String
+  baseType: String
+}
+
+type FcmDevice
+  @model
+  @key(
+    name: "getFcmDeviceByPhone"
+    fields: ["baseType", "userPhone"]
+    queryField: "getFcmDeviceByPhone"
+  )
+  @key(
+    name: "getFcmDeviceByDeviceId"
+    fields: ["baseType", "deviceId"]
+    queryField: "getFcmDeviceByDeviceId"
+  ) {
+  id: ID
+  deviceId: String
+  userPhone: String
+  baseType: String
+  fcmTopics: [FcmDeviceTopic]
+    @connection(keyName: "byFcmDevice", fields: ["id"])
+}
+
+type FcmDeviceTopic
+  @model
+  @key(
+    name: "byFcmDevice"
+    fields: ["fcmDeviceID", "fcmTopicID"]
+    queryField: "byFcmDevice"
+  )
+  @key(
+    name: "byFcmTopic"
+    fields: ["fcmTopicID", "fcmDeviceID"]
+    queryField: "byFcmTopic"
+  )
+  @key(
+    name: "byFcmTopicOnly"
+    fields: ["baseType", "fcmTopicID"]
+    queryField: "byFcmTopicOnly"
+  )
+  @key(
+    name: "byFcmDeviceOnly"
+    fields: ["baseType", "fcmDeviceID"]
+    queryField: "byFcmDeviceOnly"
+  ) {
+  fcmDeviceID: ID
+  fcmTopicID: ID
+  fcmDevices: FcmDevice
+    @connection(name: "byFcmDevice", fields: ["fcmDeviceID"])
+  fcmTopics: FcmTopic @connection(name: "byFcmTopic", fields: ["fcmTopicID"])
+  baseType: String
+}
+
+type FcmTopic
+  @model
+  @key(
+    name: "getFcmTopicByName"
+    fields: ["baseType", "name"]
+    queryField: "getFcmTopicByName"
+  ) {
+  id: ID
+  name: String
+  baseType: String
+  FcmDeviceID: [FcmDeviceTopic]
+    @connection(keyName: "byFcmTopic", fields: ["id"])
+}
